@@ -12,6 +12,7 @@ Verilerinizi giriş kısmına virgül ile ayırarak girip hesapla butonuna basma
 
 # Yapılan Hesaplamalar
 - Verilerinizin Sayı Adedi
+- Minimum-Maksimum
 - Aritmetik Ortalama
 - Harmonik Ortalama
 - Geometrik Ortalama
@@ -20,6 +21,7 @@ Verilerinizi giriş kısmına virgül ile ayırarak girip hesapla butonuna basma
 - Mod
 - Ortalama Sapma
 - Varyans
+- Değişim Katsayısı
 
 # Siteden görüntüler
 
