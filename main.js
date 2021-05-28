@@ -274,79 +274,13 @@ function drawChart(numberList) {
     let trace1 = {
         x: numberListNotRepeat,
         y: repeatNumbers,
-        type: 'scatter'
+        type: 'bar'
     };
 
-    var layout = {
-        showlegend: false,
-        height: 600,
-        width: 600,
-        xaxis: {
-            showline: true,
-            showgrid: false,
-            showticklabels: true,
-            linecolor: 'rgb(204,204,204)',
-            linewidth: 2,
-            autotick: false,
-            ticks: 'outside',
-            tickcolor: 'rgb(204,204,204)',
-            tickwidth: 2,
-            ticklen: 5,
-            tickfont: {
-                family: 'Arial',
-                size: 12,
-                color: 'rgb(82, 82, 82)'
-            }
-        },
-        yaxis: {
-            showgrid: true,
-            zeroline: true,
-            showline: true,
-            showticklabels: true
-        },
-        autosize: false,
-        margin: {
-            autoexpand: false,
-            l: 100,
-            r: 20,
-            t: 100
-        },
-        annotations: [
-            {
-                xref: 'paper',
-                yref: 'paper',
-                x: 0.0,
-                y: 1.05,
-                text: '',
-                xanchor: 'left',
-                yanchor: 'bottom',
-                font: {
-                    family: 'Arial',
-                    size: 30,
-                    color: 'rgb(37,37,37)'
-                },
-                showarrow: false
-            },
-            {
-                xref: 'paper',
-                yref: 'paper',
-                x: 0.5,
-                y: -0.1,
-                xanchor: 'center',
-                yanchor: 'top',
-                text: '',
-                showarrow: false,
-                font: {
-                    family: 'Arial',
-                    size: 12,
-                    color: 'rgb(150,150,150)'
-                }
-            }
-        ]
-    };
+
 
 
     let data = [trace1];
 
-    Plotly.newPlot('myDiv', data, layout);
+    Plotly.newPlot('myDiv', data);
 }
