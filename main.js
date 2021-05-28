@@ -57,6 +57,8 @@ function buttonFunc() {
     let resultVaryans = varyansFunc(numberList);
     let resultSayiAdedi = sayiAdediFunc(numberList);
     let drawHistogram = drawChart(numberList);
+    let resultDegisimKatsayisi = degisimKatsayisiFunc(numberList);
+    let resultMinMax = minMaxFunc(numberList);
 
 
     let sayiAdediSonuc = document.getElementById("sayiAdediSonuc");
@@ -68,6 +70,8 @@ function buttonFunc() {
     let modSonuc = document.getElementById("modSonuc");
     let ortalamaSapmaSonuc = document.getElementById("ortalamaSapmaSonuc");
     let varyansSonuc = document.getElementById("varyansSonuc");
+    let degisimKatsayisiSonuc = document.getElementById("degisimKatsayisiSonuc");
+    let minMaxSonuc = document.getElementById("minMaxSonuc");
 
     sayiAdediSonuc.innerHTML = resultSayiAdedi;
     aritmetikOrtalamaSonuc.innerHTML = resultAritmetik.toFixed(3);
@@ -79,6 +83,8 @@ function buttonFunc() {
 
     ortalamaSapmaSonuc.innerHTML = resultOrtalamaSapma.toFixed(3);
     varyansSonuc.innerHTML = resultVaryans.toFixed(3);
+    degisimKatsayisiSonuc.innerHTML = resultDegisimKatsayisi.toFixed(3);
+    minMaxSonuc.innerHTML = "Min: " + resultMinMax[0] + " " + "Max: " + resultMinMax[1];
 
     var sonuc =
         "Sayı Adedi: " +
@@ -244,6 +250,23 @@ function sayiAdediFunc(numberList) {
 function resetleFunc() {
     location.reload();
 }
+
+function degisimKatsayisiFunc(numberList) {
+    let standartSapma = standartSapmaFunc(numberList);
+    let aritmetikOrtalama = aritmetikOrt(numberList);
+    return standartSapma / aritmetikOrtalama * 100;
+}
+
+function minMaxFunc(numberList) {
+    let sayiListesi = [];
+    numberList.forEach((number) => {
+        sayiListesi.push(parseFloat(number.trim()));
+    });
+    sortedSayiListesi = sayiListesi.sort(function (a, b) { return a - b });
+
+    return [sortedSayiListesi[0], sortedSayiListesi[sortedSayiListesi.length - 1]];
+}
+
 function copyClipBoard() {
     const testData = document.getElementById("testData");
     const textArea = document.createElement("textarea");
