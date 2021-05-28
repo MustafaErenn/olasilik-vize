@@ -42,16 +42,16 @@ Sayfanın sonunda ise sayılarınızın adedini gösteren bir çizgi grafiği me
 # Kurulum ve Oynanış
 ## Github üzerinden indirmek
 
-<img src="images/kurulum1.png">
+<img src="images/kurulum.png">
 Resimdeki adımları takip ederek kodu zip olarak indirdikten sonra zipi açarak dosya içindeki index.html'e çift tıklayarak açarsanız oyunu oynabilirsiniz.
 
 ## Oyun linki
 Kodu indirmek istemezseniz linkten oynayabilirsiniz -> https://mustafaerenn.github.io/olasilik-vize/
 
 # Ekip Üyeleri
-Mustafa Eren ->  [@MustafaErenn](https://github.com/MustafaErenn)
-Kerem Ersu ->  [@keremersu35](https://github.com/keremersu35)
-Taner Solak ->  [@tanersolak](https://github.com/tanersolak)
+- Mustafa Eren ->  [@MustafaErenn](https://github.com/MustafaErenn)
+- Kerem Ersu ->  [@keremersu35](https://github.com/keremersu35)
+- Taner Solak ->  [@tanersolak](https://github.com/tanersolak)
 
 
 
