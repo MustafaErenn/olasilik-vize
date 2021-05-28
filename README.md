@@ -29,7 +29,7 @@ Verilerinizi girmeniz için böyle bir ekranla karşılaşacaksınız. Gerekli a
 
 Sonuçlarınız resimde görüldüğü gibi ekrana basılacaktır.
 
-<img src="images/img3.png" width="300" height="550" >
+<img src="images/img3.png"  height="450" >
 
 Sayfanın sonunda ise sayılarınızın adedini gösteren bir çizgi grafiği mevcut.
 
