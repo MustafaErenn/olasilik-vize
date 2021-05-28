@@ -1,5 +1,7 @@
 # Olasılık ve İstatistik Vizesi-Grup Ödevi
 
+Siteye [buraya](https://mustafaerenn.github.io/olasilik-vize/) tıklayarak ulaşabilirsiniz.
+
 # Genel Özet
 Bu proje  BTU-Olasılık ve İstatistik dersi için yaptığımız grup projesidir.
 ## Proje Amacı
@@ -19,7 +21,7 @@ Verilerinizi giriş kısmına virgül ile ayırarak girip hesapla butonuna basma
 - Ortalama Sapma
 - Varyans
 
-# Oyundan görüntüler
+# Siteden görüntüler
 
 <img src="images/img1.png" >
 
@@ -39,14 +41,14 @@ Sayfanın sonunda ise sayılarınızın adedini gösteren bir çizgi grafiği me
 - JavaScript
 - CSS
 
-# Kurulum ve Oynanış
+# Kurulum
 ## Github üzerinden indirmek
 
 <img src="images/kurulum.png">
-Resimdeki adımları takip ederek kodu zip olarak indirdikten sonra zipi açarak dosya içindeki index.html'e çift tıklayarak açarsanız oyunu oynabilirsiniz.
+Resimdeki adımları takip ederek kodu zip olarak indirdikten sonra zipi açarak dosya içindeki index.html'e çift tıklayarak açarsanız siteyi kullanabilirsiniz.
 
-## Oyun linki
-Kodu indirmek istemezseniz linkten oynayabilirsiniz -> https://mustafaerenn.github.io/olasilik-vize/
+## Site Linki
+Kodu indirmek istemezseniz linkten kullanabilirsiniz -> https://mustafaerenn.github.io/olasilik-vize/
 
 # Ekip Üyeleri
 - Mustafa Eren ->  [@MustafaErenn](https://github.com/MustafaErenn)
