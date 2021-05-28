@@ -27,11 +27,11 @@ Verilerinizi giriş kısmına virgül ile ayırarak girip hesapla butonuna basma
 
 Verilerinizi girmeniz için böyle bir ekranla karşılaşacaksınız. Gerekli alana virgül ile sayılarınızı girdikten sonra hesaplaya basın
 
-<img src="images/img2.png" >
+<img src="images/img2.1.png" >
 
 Sonuçlarınız resimde görüldüğü gibi ekrana basılacaktır.
 
-<img src="images/img3.png"  height="450" >
+<img src="images/img3.1.png"  height="450" >
 
 Sayfanın sonunda ise sayılarınızın adedini gösteren bir çizgi grafiği mevcut.
 
