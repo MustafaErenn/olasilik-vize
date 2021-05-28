@@ -1,3 +1,14 @@
+/*
+    EKIP UYELERI:
+      - MUSTAFA EREN
+      - TANER SOLAK
+      - KEREM ERSU
+*/
+
+
+
+
+
 function isInputNumber(evt) {
     var ch = String.fromCharCode(evt.which);
     if (!/[0-9]/.test(ch)) {
