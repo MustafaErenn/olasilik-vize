@@ -162,7 +162,7 @@ function standartSapmaFunc(numberList) {
     for (let i = 0; i < arrayLength; i++) {
         total += Math.pow(aritOrt - parseFloat(numberList[i]), 2);
     }
-    total = total / (arrayLength - 1);
+    total = total / (arrayLength);
     return Math.pow(total, 1 / 2);
 }
 function countFunc(numberList, currentNumber) {
